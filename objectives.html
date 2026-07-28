@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Objectives | Creatives by Nichole</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+<nav class="navbar">
+
+<div class="logo-small">
+<img src="LOGO1.png" alt="Creatives by Nichole Logo">
+</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="boards.html">Boards</a></li>
+<li><a href="objectives.html" class="active">Objectives</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="sip.html">SIP</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+</header>
+
+
+<!-- PAGE TITLE -->
+
+<section class="overview">
+
+<h2>Program Objectives</h2>
+
+<p>
+The following objectives represent the skills and competencies developed
+through my Digital Marketing coursework and professional projects.
+</p>
+
+<ul class="objectives-list">
+
+<li>Understand inbound marketing and SEO strategies based on evolving trends in the market.</li>
+
+<li>Create content that fosters growth and engagement of a target audience.</li>
+
+<li>Design and implement digital marketing strategies that follow branding guidelines.</li>
+
+<li>Identify basic key performance indicators through analytics for conversion optimization.</li>
+
+<li>Cultivate leadership qualities through the development and management of marketing campaigns.</li>
+
+<li>Develop the ability to work with standard and emerging platforms used in the digital advertising industry.</li>
+
+</ul>
+
+</section>
+
+
+<!-- PROJECT EVIDENCE -->
+
+<section class="projects-preview">
+
+<h2>Supporting Projects</h2>
+
+<div class="project-grid">
+
+
+<div class="project-card">
+
+<img src="project-objective1.jpg" alt="Project Evidence">
+
+<h3>Project Title</h3>
+
+<p>Short description of the project.</p>
+
+<button onclick="openModal('modal1')" class="read-btn">
+Learn More
+</button>
+
+</div>
+
+
+<div class="project-card">
+
+<img src="project-objective2.jpg" alt="Project Evidence">
+
+<h3>Project Title</h3>
+
+<p>Short description of the project.</p>
+
+<button onclick="openModal('modal2')" class="read-btn">
+Learn More
+</button>
+
+</div>
+
+
+<div class="project-card">
+
+<img src="project-objective3.jpg" alt="Project Evidence">
+
+<h3>Project Title</h3>
+
+<p>Short description of the project.</p>
+
+<button onclick="openModal('modal3')" class="read-btn">
+Learn More
+</button>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- POPUP MODALS -->
+
+<div id="modal1" class="modal">
+
+<div class="modal-content">
+
+<h2>Project Title</h2>
+
+<p>
+Explain the project and which objectives it fulfills.
+You can describe the marketing strategy, analytics,
+or content creation involved.
+</p>
+
+<button onclick="closeModal('modal1')" class="close-btn">
+Go Back
+</button>
+
+</div>
+
+</div>
+
+
+
+<div id="modal2" class="modal">
+
+<div class="modal-content">
+
+<h2>Project Title</h2>
+
+<p>
+Provide more detail about the project and how it relates
+to the program objectives.
+</p>
+
+<button onclick="closeModal('modal2')" class="close-btn">
+Go Back
+</button>
+
+</div>
+
+</div>
+
+
+
+<div id="modal3" class="modal">
+
+<div class="modal-content">
+
+<h2>Project Title</h2>
+
+<p>
+Explain the tools, platforms, or marketing methods used in this project.
+</p>
+
+<button onclick="closeModal('modal3')" class="close-btn">
+Go Back
+</button>
+
+</div>
+
+</div>
+
+
+
+<footer>
+
+<p>
+Creatives by Nichole<br>
+Nichole Losh — Digital Marketing
+</p>
+
+</footer>
+
+
+
+<script>
+
+function openModal(id){
+document.getElementById(id).style.display = "flex";
+}
+
+function closeModal(id){
+document.getElementById(id).style.display = "none";
+}
+
+</script>
+
+</body>
+</html>
